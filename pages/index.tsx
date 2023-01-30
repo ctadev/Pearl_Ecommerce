@@ -7,8 +7,8 @@ import TabContainer from "../components/TabContainer";
 import Modal from "../components/Modal";
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Home() {
   const modalState = useSelector((state: any) => state.modalSlice);
@@ -37,8 +37,10 @@ export default function Home() {
         </section>
 
         <section className={s.paralax}>
-          <h1 className={s.h1}>New Promos</h1>
-          <TabContainer />
+          <div className="sticky top-0 z-30">
+            <h1 className={s.h1}>New Promos</h1>
+            <TabContainer />
+          </div>
         </section>
         <Subscribe />
         <Footer />
