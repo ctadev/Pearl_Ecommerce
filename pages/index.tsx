@@ -49,6 +49,6 @@ export default function Home() {
 }
 
 const s = {
-  paralax: "relative z-40 -mt-[100vh] bg-[#1B1B1B] min-h-[100vh] p-4 pb-24",
+  paralax: "relative -mt-[100vh] bg-[#1B1B1B] min-h-[100vh] p-4 pb-24",
   h1: "text-center text-4xl font-medium tracking-wide text-white md:text-5xl mt-8",
 };
