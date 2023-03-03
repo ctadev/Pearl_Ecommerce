@@ -30,7 +30,7 @@ export default Hero;
 
 const s = {
   hero_container:
-    "sticky .stickySafari top-0 mx-auto flex h-screen max-w-[1350px] items-center justify-between px-8",
+    "sticky .stickySafari z-0 top-0 mx-auto flex h-screen max-w-[1350px] items-center justify-between px-8",
   h1: "space-y-3 text-5xl font-semibold tracking-wide lg:text-6xl xl:text-7xl",
   span: "block bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent",
   buy_container: "flex items-center gap-8",
