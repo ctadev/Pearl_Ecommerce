@@ -37,7 +37,7 @@ export default function Home() {
         </section>
 
         <section className={s.paralax}>
-          <div className="sticky top-0 z-30">
+          <div className="sticky .stickySafari top-0 z-30">
             <h1 className={s.h1}>New Promos</h1>
             <TabContainer />
           </div>
