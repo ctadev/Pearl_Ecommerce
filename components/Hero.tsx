@@ -17,9 +17,9 @@ const Hero = () => {
       <section className={s.hero_image}>
         <Image
           src="https://raw.githubusercontent.com/lukef7fywmrp/apple-redesign-yt/main/public/iphone.png"
-          layout="fill"
-          objectFit="contain"
+          fill
           alt=""
+          className="object-cover"
         />
       </section>
     </main>
