@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link href="/">
           <div className={s.image_container}>
             <Image
-              src="https://rb.gy/vsvv2o"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Apple-logo.png/640px-Apple-logo.png"
               layout="fill"
               objectFit="contain"
               alt=""

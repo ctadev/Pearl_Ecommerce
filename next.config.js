@@ -7,6 +7,7 @@ const nextConfig = {
       "raw.githubusercontent.com",
       "drive.google.com",
       "images.unsplash.com",
+      "upload.wikimedia.org",
     ],
   },
 };
